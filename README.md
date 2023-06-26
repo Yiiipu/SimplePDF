@@ -13,6 +13,8 @@ SimplePDF uses Apple's PDFKit to deal with PDF rendering and open-source [pdfGPT
 4. To enable the chatting with PDF function, you need to set up a local server following the guide from [this repo](https://github.com/bhaskatripathi/pdfGPT). It is the well-known pdfGPT. In short, you download the files in that repo with all the dependencies, and run "lc-serve deploy local api" in termminal to start the local server. For M1 mac, please use Conda.
 5. Simply type your question in the text field and hit send!
 
+Note: If you want to use gpt-3.5-turbo for lower token price and better performance, replace the api.py in pdfGPT with [this file](api.py).
+
 
 ## Updating
 This is the first working version. Please feel free to request new features or bug fixes.
