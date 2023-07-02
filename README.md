@@ -7,7 +7,7 @@ SimplePDF uses Apple's PDFKit to deal with PDF rendering and open-source [pdfGPT
 
 
 ## How to use
-1. Install [this](SimplePDF.dmg) .dmg file. This is a versin noterized by Apple.
+1. Install [this](SimplePDF_v1.1.dmg) .dmg file. This is a latest versin noterized by Apple.
 2. Click-open the app, and set your OpenAI API key in settings.
 3. To open your file, you can either set SimplePDF as a default app for PDFs, or you can right-click the file and select open with SimplePDF.
 4. To enable the chatting with PDF function, you need to set up a local server following the guide from [this repo](https://github.com/bhaskatripathi/pdfGPT). It is the well-known pdfGPT. In short, you download the files in that repo with all the dependencies, and run "lc-serve deploy local api" in termminal to start the local server. For M1 mac, please use Conda.
@@ -17,4 +17,7 @@ Note: If you want to use gpt-3.5-turbo for lower token price and better performa
 
 
 ## Updating
-This is the first working version. Please feel free to request new features or bug fixes.
+*v1.1*
+1. bug fixing: now it will not send empty message automatically.
+2. bug fixing: now highlighting tool will only highlight your selection, not the entire line.
+3. supports MacOS 12.0+.
